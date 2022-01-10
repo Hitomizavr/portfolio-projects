@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Личный сайт-портфолио веб-разработчика">
+  <meta name="keywords" content="website, веб-разработчик, react-website, web-portfolio" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <title>Kate V - личный сайт веб-разработчика</title>
+</head>
+<body class="root">
+  <header class="header">
+    <div class="header-container">
+      <a href="/index.html" class="header__logo">Kate V</a>
+      <div class="header-links">
+        <a class="header__link" href="mailto:hitomizavr@gmail.com">gmail: hitomizavr@gmail.com</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="main-container">
+      <div class="main-container-text">
+        <h1 class="main__title">Hello!</h1>
+        <p class="main__subtitle">> I am Kate</p>
+        <p class="main__subtext" id="console">> </p>
+      </div>
+      <div class="main-container-links">
+        <a class="main__link" href="/education.html"> / my education</a>
+        <a class="main__link" href="#aboutme-an"> / about me</a>
+        <a class="main__link" href="/projects.html"> / my projects</a>
+      </div>
+      <div class="main-container-avatar">
+        <img class="main__image" src="/images/b1.jpg">
+      </div>
+    </div>
+    <a href="/projects.html"" class="main__button">My projects</a>
+  </section>
+
+ <section class="aboutme">
+    <h2 class="aboutme__title"><a name="aboutme-an"></a>&#706;about_me&#707; </h2>
+    <div class="aboutme-container-flex">
+        <div class="aboutme-container">
+          <span class="aboutme__text">Разрешите представиться. Меня зовут Катя.</span>
+          <p class="aboutme__text">Мне 20 лет. Я из России и живу в Москве. 
+            <br>С самого детства мне нравятся компьютерные технологии, видеоигры и программирование. 
+            И считаю, что это точно моё.
+            <br>
+            <br>Далее я расскажу о своем образовании</p>
+            <a class="aboutme-social__link-eductn" href="/education.html">/ my self-education</a>
+            <div class="aboutme-social">
+              <p class="aboutme-social__link-discord">Discord: Hitomizavr#4134<img class="copy-icon" src="./images/copy1.svg"></p>
+              <p class="aboutme-social__link-discord_message">Copied to clipboard!</p>
+              <a href="https://github.com/Hitomizavr" target="_blank"><img class="aboutme-social__image" src="/images/github-white.svg"></a>
+              <a href="https://instagram.com/" target="_blank"><img class="aboutme-social__image" src="/images/Instagram.svg"></a>
+              <a href="https://linkedin.com/" target="_blank"><img class="aboutme-social__image" src="/images/LinkedIn.svg"></a>
+            </div>
+        </div>
+        <ul class="aboutme-container-right">
+          <p class="aboutme-container-right__title">my skills</p>
+          <li class="aboutme-container-right__link">> HTML5, CSS5</li>
+          <li class="aboutme-container-right__link">> BEM (БЭМ)</li>
+          <li class="aboutme-container-right__link">> Java Script</li>
+          <li class="aboutme-container-right__link">> React.js</li>
+          <li class="aboutme-container-right__link">> Express.js</li>
+          <li class="aboutme-container-right__link">> Node.js</li>
+          <li class="aboutme-container-right__link">> My SQL</li>
+          <li class="aboutme-container-right__link">> MongoDB</li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="portfolio">
+      <div class="portfolio-container">
+        <h2 class="portfolio__title"><a name="myprojects-an"></a>&#706;my_projects&#707; </h2>
+        <div class="portfolio-works">
+          <div class="portfolio__work">
+            <div class="port-left">
+              <img class="portfolio-icon" src="/images/mestosute.png">
+            </div>
+            <div class="port-right">
+              <h3 class="port-right__title">"Mesto"</h3>
+              <a href="https://mesto.hitomizavr.com/" target="_blank" class="port-right__link">https://mesto.hitomizavr.com/</a>
+              <p class="port-right__text">Сайт-проект, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками (картинками) и пользователями.</p>
+            </div>
+          </div>
+          <div class="line-ck"></div>
+          <div class="portfolio__work">
+            <div class="port-left">
+              <img class="portfolio-icon" src="/images/howtolearn.png">
+            </div>
+            <div class="port-right">
+              <h3 class="port-right__title">"How to learn"</h3>
+              <a href="https://hitomizavr.github.io/how-to-learn/" target="_blank" class="port-right__link">https://hitomizavr.github.io/how-to-learn/</a>
+              <p class="port-right__text">Сайт-проект, созданный с целью объяснить всем о эффективных методиках обучения. 
+                В этом проекте используются технологии:
+                <ul>
+                  <li>HTML5, CSS3;</li>
+                  <li>normalize.css</li>
+                  <li>БЭМ;</li>
+                  <li>Nested</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="port__button-more">
+            <a class="port__button-more-link" href="/projects.html">More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-container">
+        <h2 class="contact__title"><a name="mycontacts-an"></a>&#706;my_contacts&#707; </h2>
+        <p class="contact__text">Have a question?</p>
+        <form class="contact-form" action="https://hitomizavr.ru/script/scrypt.php" method="post" name="form">
+          <input class="contact-form__input" name="name" type="text" placeholder="Name">
+          <input class="contact-form__input" name="email" type="text" placeholder="Email">
+          <textarea class="contact-form__input contact-form__textarea" name="header" type="text" placeholder="Your message"></textarea>
+          <button class="contact-form__button">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <nav class="footer__links">
+        <ul class="footer__nav-links">
+          <li class="footer__list-item"><a class="footer__link" href="/projects.html">Проекты</a></li>
+          <li class="footer__list-item"><a class="footer__link" href="https://twitter.com/Hitomi_zavr">Twitter</a></li>
+          <li class="footer__list-item"><a class="footer__link" href="https://github.com/hitomizavr">Github</a></li>
+          <li class="footer__list-item"><a class="footer__link" href="https://linkedin.com">LinkedIn</a></li>
+          <li class="footer__list-item"><a class="footer__link footer__link-mail" href="mailto:hitomizavr@gmail.com">hitomizavr@gmail.com</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy; 2021. Kate V</p>
+    </footer>
+
+<script>
+  var speed = [30, 70];
+  var counter = 0;
+  var container = document.querySelector('#console');
+  var str = "Interactive website and react-website developer";
+
+  function getRandom(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function print(l) {
+    return new Promise((resolve, reject) => {
+      setTimeout(function () {
+        container.textContent = (container.textContent || "") + l;
+        resolve();
+      }, getRandom(speed[0], speed[1]));
+    });
+  }
+
+  function tail() {
+    print(str[counter]).then(function () {
+      if (counter < str.length - 1) {
+        counter += 1;
+        tail();
+      }
+    });
+  }
+
+  tail();
+
+var discord = document.querySelector('.aboutme-social__link-discord');
+var discordMessage = document.querySelector('.aboutme-social__link-discord_message');
+
+discord.addEventListener('click', function(event) {
+  var data = [new ClipboardItem({ "text/plain": new Blob(["Hitomizavr#4134"], { type: "text/plain" }) })];
+
+  navigator.clipboard.write(data).then(function() {
+    discordMessage.classList.add('aboutme-social__link-discord_message_visible');
+    setTimeout(function() {
+      discordMessage.classList.remove('aboutme-social__link-discord_message_visible');
+    }, 1000);
+  }, function() {
+    alert("Unable to copy!");
+  });
+});
+
+
+</script>
+</body>
+</html>
